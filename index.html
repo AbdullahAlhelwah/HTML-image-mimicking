@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q&A Platform</title>
+</head>
+<body>
+    <header>
+        <p><img src="images/AskItNowLogo.png" alt="logo"><a href="index.html">AskitNow</a> <br>
+            <input type="text" placeholder="Search questions..."> <br><a href="auth.html">Log in</a>
+            <img src="https://www.gravatar.com/avatar/placeholder?s=50&d=robohash" alt="robot"> <br>
+        </p>
+    </header>
+    <main>
+        <section>
+            <h2>All Questions</h2>
+            <button>➕Ask a New Question</button>
+            <form action="" method="post">
+                <label for="sort">Sort by:</label>
+                <select name="sort" id="sort">
+                    <option value="newest">Newest</option>
+                    <option value="oldest">Oldest</option>
+                    <option value="most_answered">Most Answered</option>
+                </select>
+                <label for="filter">Filter:</label>
+                <select name="filter" id="filter">
+                    <option value="all">All</option>
+                    <option value="answered">Answered</option>
+                    <option value="unanswered">Unanswered</option>
+                </select>
+            </form>
+            <span>✔ <br> 3 Answers</span>
+        </section>
+        <section>
+            <h2><a href="question.html">How do I solve a NullPointerException in Java?</a></h2>
+            <p>I'm getting a NullPointerException when trying to access...</p>
+            <p><a href="question.html">java</a> <a href="question.html">nullponiterexeption</a><br>
+                Asked by: Ali Ahmed <br>
+                Asked on: 11/01/2024 <br>
+                1 Answer</p>
+        </section>
+        <section>
+            <h2><a href="question.html">How to convert a string to lowercase in Python?</a></h2>
+            <p>I have a string and I want to convert...</p>
+            <p><a href="question.html">python</a> <a href="question.html">string</a><br>
+                Asked by: Khalid Ahmed <br>
+                Asked on: 01/01/2024 <br>
+                x</p>
+        </section>
+        <section>
+            <h2>Ask a New Question</h2>
+            <form action="" method="post">
+                <label for="title">Title</label>
+                <input type="text" name="title" id="title"> <br>
+                <label for="details">Details</label>
+                <textarea name="details" id="details" cols="18" rows="4"></textarea> <br>
+                <label for="tags">Tags</label>
+                <input type="text" name="tags" id="tags" placeholder="e.g. java, nullponiterexeption"> <br>
+                <input type="submit" value="Submit Question">
+            </form>
+        </section>
+        <section>
+            <h2>Top Tags</h2>
+            <ul>
+                <li><a href="index.html#">java</a> (10)</li>
+                <li><a href="index.html#">python</a> (5)</li>
+                <li><a href="index.html#">javascript</a> (3)</li>
+                <li><a href="index.html#">array</a> (2)</li>
+                <li><a href="index.html#">string</a> (1)</li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>&#169;	2024 Ask It Now Q&A Platform - All rights reserved.</p>
+    </footer>
+</body>
+</html>

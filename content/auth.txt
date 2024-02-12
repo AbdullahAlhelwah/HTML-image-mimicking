@@ -1,0 +1,91 @@
+
+
+
+
+    
+    
+    Login/Register - User Profile
+    
+    
+
+
+
+    
+        
+            
+                
+                    AskItNow
+                
+                
+                    
+                
+                Login
+                
+        
+        
+        
+    
+    
+        
+        
+            Login
+            
+                
+                    Email
+                    
+                
+                
+                    Password
+                    
+                
+                
+                    Login
+                    
+                        OR register if you don't have an account
+                    
+                
+            
+        
+
+        
+       
+
+        
+        
+            Register
+            
+                
+                    Email
+                    
+                
+                
+                    Password
+                    
+                
+                
+                    
+                    Full Name
+                    
+                
+                
+                
+                    Bio
+                    
+                
+                
+                    Avatar Image
+                    
+                
+                
+                    Create Profile
+                
+            
+        
+    
+    
+         2024 Ask It Now Q&A Platform - All rights reserved.
+    
+    
+    
+
+
